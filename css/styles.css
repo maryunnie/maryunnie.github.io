@@ -3,12 +3,15 @@ h1 {
     font-style: italic;
     font-size: 35px;
     text-align:justify;
-    border-width: 300px;
-    
+    border-width: 30px;
+    border-top:black ;
+    border-radius: 20px 40px;
+    padding: 10px;
 }
 
 body {
     background-color: antiquewhite;
+    margin: 20px;
 }
 
 p {
