@@ -1,0 +1,34 @@
+h1 {
+    color: cornflowerblue;
+    font-style: italic;
+    font-size: 35px;
+    text-align:justify;
+    border-width: 300px;
+    
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+    color: darkcyan;
+    margin: 30pX;
+}
+
+li {
+    font-size: 18px;
+    text-align: justify;
+    color: darkcyan;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+a{
+    text-decoration: none;
+}
