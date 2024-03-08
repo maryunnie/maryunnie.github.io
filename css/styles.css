@@ -15,7 +15,7 @@ body {
 }
 
 p {
-    font-size: 18px;
+    font-size: 20px;
     text-align: justify;
     color: darkcyan;
     margin: 30pX;
@@ -34,12 +34,14 @@ img {
 
 a{
     text-decoration: none;
+    display: block;
 }
 
 div{
     border:2px solid;
     border-color: rgb(80, 168, 139);
     margin-bottom: 20px;
+    border
 }
 
 #imagem-1{
@@ -49,4 +51,9 @@ div{
     margin: auto;
 }
 
+span{
+    font-style: italic;
+    color: rgb(75, 145, 121);
+    font-weight: bold;
+}
 
