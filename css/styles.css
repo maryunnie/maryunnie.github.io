@@ -35,3 +35,18 @@ img {
 a{
     text-decoration: none;
 }
+
+div{
+    border:2px solid;
+    border-color: rgb(80, 168, 139);
+    margin-bottom: 20px;
+}
+
+#imagem-1{
+    width: 300px;
+    height: 400px;
+    display: block;
+    margin: auto;
+}
+
+
