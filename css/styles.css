@@ -2,11 +2,12 @@ h1 {
     color: rgb(98, 207, 180);
     font-style: italic;
     font-size: 35px;
-    text-align:justify;
+    text-align: justify;
     border-width: 30px;
-    border-top:black ;
+    border-top: black;
     border-radius: 20px 40px;
     padding: 10px;
+
 }
 
 body {
@@ -30,30 +31,54 @@ li {
 img {
     width: 250px;
     height: 250px;
+    
 }
 
-a{
+a {
     text-decoration: none;
     display: block;
+    border: solid;
+    width: max-content;
+    padding: 2px;
+    color: rgb(167, 212, 212);
+    border-radius: 25px;
+    border-radius: 20%; 
+    background-color:rgb(245, 216, 181);
+    margin: 10px auto;
 }
 
-div{
-    border:2px solid;
+div {
+    background-image: url('../img/textura-de-parede-de-concreto_375133-669.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border: 2px solid;
     border-color: rgb(80, 168, 139);
     margin-bottom: 20px;
-    border
+    border: double darkcyan;
 }
 
-#imagem-1{
-    width: 300px;
-    height: 400px;
+#imagem-1 {
+    width: 500px;
+    height: 600px;
     display: block;
     margin: auto;
 }
 
-span{
+span {
     font-style: italic;
     color: rgb(75, 145, 121);
     font-weight: bold;
 }
 
+#title{
+    text-align: center;
+}
+
+#paragrafo{
+    text-align: center;
+}
+ a:hover{
+    background-color:rgb(21, 148, 148) ;
+    color:rgb(163,223,223) ;
+ }
