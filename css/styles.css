@@ -1,7 +1,7 @@
 h1 {
     color: rgb(98, 207, 180);
     font-style: italic;
-    font-size: 35px;
+    font-size: 20px;
     text-align: justify;
     border-width: 30px;
     border-top: black;
@@ -104,7 +104,7 @@ a {
 
 footer{
     background-color:beige;
-    width: 97vw;
+    width: 90vw;
     height: 02VW;
 }
 
@@ -132,7 +132,9 @@ header{
     font-size: 30px;
     font-weight: bold;
     box-shadow: 8px;
-    background-color:beige ;
+    background-color:rgb(221, 221, 211) ;
+    border: double;
+    border-color:rgb(80, 168, 139);
 }
 
 #para{
