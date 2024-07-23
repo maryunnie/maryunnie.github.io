@@ -68,11 +68,12 @@ div {
 span {
     font-style: italic;
     color: rgb(75, 145, 121);
-    font-weight: bold;
+    
 }
 
 #title {
     text-align: center;
+    color: rgb(112, 185, 161);
 }
 
 #paragrafo {
@@ -104,13 +105,14 @@ a {
 
 footer{
     background-color:beige;
-    width: 97vw;
-    height: 02VW;
+    width: 300px;
+    height: 400px;
 }
 
 small{
     color: rgb(172, 135, 89);
     /* position: absolute; */
+
 }
 
 .iframe{
@@ -158,6 +160,6 @@ nav ul {
     flex-wrap: wrap;
     justify-content: space-around;
     margin-left: 0;
-    po
+    
 }
 
