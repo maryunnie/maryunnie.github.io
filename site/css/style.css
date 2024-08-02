@@ -1,0 +1,32 @@
+h1 {
+    color: rgb(98, 207, 180);
+    font-size: 35px;
+    text-align: justify;
+    border-width: 30px;
+    border-top: black;
+    border-radius: 20px 40px;
+    padding: 10px;
+}
+
+body {
+    background-color: antiquewhite;
+    margin: 20px;
+}
+
+div {
+    background-image: url('../img/textura-de-parede-de-concreto_375133-669.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border: 2px solid;
+    border-color: rgb(80, 168, 139);
+    margin-bottom: 20px;
+    border: double darkcyan;
+}
+
+img {
+    max-width:150%;
+   min-width: none;
+   max-height: 200%;
+   min-height: auto;
+}
