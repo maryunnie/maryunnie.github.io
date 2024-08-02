@@ -1,7 +1,7 @@
 h1 {
     color: rgb(98, 207, 180);
     font-style: italic;
-    font-size: 35px;
+    font-size: 20px;
     text-align: justify;
     border-width: 30px;
     border-top: black;
@@ -105,8 +105,13 @@ a {
 
 footer{
     background-color:beige;
+<<<<<<< HEAD:Projeto Antigo/css/styles.css
     width: 300px;
     height: 400px;
+=======
+    width: 90vw;
+    height: 02VW;
+>>>>>>> 57d6bc804b2ed42c6bcd0dcb20b4571f3fb29015:css/styles.css
 }
 
 small{
@@ -134,7 +139,9 @@ header{
     font-size: 30px;
     font-weight: bold;
     box-shadow: 8px;
-    background-color:beige ;
+    background-color:rgb(221, 221, 211) ;
+    border: double;
+    border-color:rgb(80, 168, 139);
 }
 
 #para{
@@ -160,6 +167,10 @@ nav ul {
     flex-wrap: wrap;
     justify-content: space-around;
     margin-left: 0;
+<<<<<<< HEAD:Projeto Antigo/css/styles.css
     
 }
+=======
+>>>>>>> 57d6bc804b2ed42c6bcd0dcb20b4571f3fb29015:css/styles.css
 
+}
