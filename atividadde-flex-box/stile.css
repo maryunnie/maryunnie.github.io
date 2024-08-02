@@ -4,13 +4,18 @@
     --cor-segundaria:#ffa500;
 
 }
-
 *{
     margin: 0;
     padding: 0;
 }
+
 .secao-banner{
     background-color: var(--cor-principal);
+    padding: 100px 0px;
+}
+
+body{
+    background-color: var(--cor-segundaria-contraste);
 }
 
 .container-banneer{
@@ -38,7 +43,7 @@
 
 }
 
-.container-banneer-imagem-img{
+.container-banneer-imagem img{
     width: 100%;
     height: 100%;
 }
@@ -86,7 +91,7 @@
     height: 150px;
 }
 
-.container-card-imagem-img{
+.container-card-imagem img{
     width: 100%;
     height: 100%;
 }
