@@ -1,24 +1,25 @@
-:root{
-    --cor-principal:#2f86d6;
-    --cor-segundaria-contraste:#ffca3a;
-    --cor-segundaria:#ffa500;
+:root {
+    --cor-principal: #2f86d6;
+    --cor-segundaria-contraste: #ffca3a;
+    --cor-segundaria: #ffa500;
 
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
 
-.secao-banner{
+.secao-banner {
     background-color: var(--cor-principal);
     padding: 100px 0px;
 }
 
-body{
+body {
     background-color: var(--cor-segundaria-contraste);
 }
 
-.container-banneer{
+.container-banner {
     width: 100%;
     max-width: 1024px;
     margin: 0 auto;
@@ -26,7 +27,7 @@ body{
     flex-wrap: wrap;
 }
 
-.container-texto{
+.container-texto {
     color: #fff;
     padding: 10px 20px;
     flex: 1 1 300px;
@@ -36,19 +37,19 @@ body{
     gap: 20px;
 }
 
-.container-banneer-imagem{
+.container-banner-imagem {
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 468px;
 
 }
 
-.container-banneer-imagem img{
+.container-banner-imagem img {
     width: 100%;
     height: 100%;
 }
 
-.secao-cards{
+.secao-cards {
     background-color: var(--cor-segundaria);
     padding: 100px 0px;
     margin: 50px;
@@ -58,7 +59,7 @@ body{
 }
 
 .container-cards-pais,
-.container-cards-filhos{
+.container-cards-filhos {
     max-width: 1024px;
     padding: 40px 0px;
     display: flex;
@@ -67,46 +68,45 @@ body{
     gap: 20px;
 
 }
-.card{
+
+.card {
     width: 280px;
     height: 450px;
     background-color: var(--cor-principal);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-.card{
-    flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    padding: 10px 0 0 0;
+    padding: 100px 0 0 0;
     text-align: center;
 }
-.card-info{
+
+.card-info {
     background-color: var(--cor-segundaria-2);
     flex-grow: 1;
 }
 
-.container-card-imagem{
+.container-card-imagem {
     height: 150px;
 }
 
-.container-card-imagem img{
+.container-card-imagem img {
     width: 100%;
     height: 100%;
 }
 
-h2{
+h2 {
     font-size: 30px;
     text-transform: uppercase;
     text-align: center;
 }
-h3{
+
+h3 {
     font-size: 26px;
     margin: 60px 0;
 
 }
 
-#fonte{
+#fonte {
     text-align: right;
 }
