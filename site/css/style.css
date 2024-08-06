@@ -1,15 +1,29 @@
 h1 {
     color: rgb(98, 207, 180);
-    font-size: 35px;
-    text-align: justify;
-    border-width: 30px;
-    border-top: black;
-    border-radius: 20px 40px;
-    padding: 10px;
+    font-size: 60px;
+    font-style: "poppins";
+    text-align: center;
+    border-radius: 25px;
+    padding: 1px;
+    border-color: black;
+}
+
+p{
+    font-size: 25px;
+    font-family: serif;
+    text-align: center;
+    border-radius: 25px;
+    padding: 3px 40px;
+    margin: 1%;
+}
+
+li{
+    font-size: 30px;
+    padding: 1%;
 }
 
 body {
-    background-color: rgb(128, 209, 165);
+    background-color: rgb(163, 228, 192);
 }
 
 div {
@@ -24,8 +38,7 @@ div {
 }
 
 img {
-    max-width:150%;
-   min-width: none;
-   max-height: 200%;
-   min-height: auto;
+   width: 800px;
+   display: block;
+   margin: auto;
 }
