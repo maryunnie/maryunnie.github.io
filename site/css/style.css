@@ -1,0 +1,162 @@
+h1 {
+    color: rgb(217, 224, 223);
+    font-size: 600px;
+    font-style: "poppins";
+    text-align: center;
+    border-radius: 25px;
+    padding: 1px;
+    border-color: rgb(28, 90, 92);
+}
+
+p{
+    font-size: 60px;
+    font-family: serif;
+    text-align: center;
+    border-radius: 25px;
+    padding: 3px 40px;
+    margin: 1%;
+}
+
+li{
+    font-size: 30px;
+    padding: 1%;
+}
+
+body {
+    background-color: rgb(163, 228, 192);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+
+div {
+    border: 2px solid;
+    border-color: rgb(80, 168, 139);
+    margin-bottom: 20px;
+    border: double darkcyan;
+    max-width: 300%;
+    min-width: none;
+    max-height: 500%;
+    min-height: 600%;
+}
+
+img {
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+#title {
+    text-align: center;
+    color: rgb(112, 185, 161);
+}
+
+#paragrafo {
+    text-align: center;
+}
+
+#imagem-1 {
+    width: 400px;
+    height: 500px;
+    display: block;
+    margin: auto;
+}
+
+small{
+    color: rgb(115, 161, 125);
+    /* position: absolute; */
+}
+
+footer{
+    background-color:rgb(52, 119, 116);
+    color: #8abdba;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding: 00px;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-weight: bold;
+    box-shadow: 8px;
+    background-color:rgb(158, 204, 196) ;
+    border: double;
+    border-color:rgb(80, 168, 139);
+    padding: 1rem;
+    text-align: center;
+}
+
+.j{
+    border: none;
+    background: none;
+}
+
+.j:hover {
+    background: none;
+}
+
+.item-menu {
+    list-style-type: none;
+    width: max-content;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    border: solid;
+    width: max-content;
+    padding: 2px;
+    color: rgb(52, 161, 134);
+    border-radius: 25px;
+    border-radius: 20%;
+    background-color: rgb(136, 181, 189);
+    margin: 10px auto;
+}
+
+nav ul {
+    /* width: 200px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 30px;
+    
+    font-size: 30px;
+    list-style: none;
+    padding: 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}

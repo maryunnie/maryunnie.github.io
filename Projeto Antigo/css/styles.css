@@ -1,0 +1,168 @@
+h1 {
+    color: rgb(98, 207, 180);
+    font-style: italic;
+    font-size: 20px;
+    text-align: justify;
+    border-width: 30px;
+    border-top: black;
+    border-radius: 20px 40px;
+    padding: 10px;
+
+}
+
+body {
+    background-color: antiquewhite;
+    margin: 20px;
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;
+    color: darkcyan;
+    margin: 30pX;
+}
+
+li {
+    font-size: 18px;
+    text-align: justify;
+    color: darkcyan;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    border: solid;
+    width: max-content;
+    padding: 2px;
+    color: rgb(98, 207, 180);
+    border-radius: 25px;
+    border-radius: 20%;
+    background-color: rgb(245, 216, 181);
+    margin: 10px auto;
+}
+
+div {
+    background-image: url('../img/textura-de-parede-de-concreto_375133-669.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border: 2px solid;
+    border-color: rgb(80, 168, 139);
+    margin-bottom: 20px;
+    border: double darkcyan;
+}
+
+#imagem-1 {
+    width: 500px;
+    height: 600px;
+    display: block;
+    margin: auto;
+}
+
+span {
+    font-style: italic;
+    color: rgb(75, 145, 121);
+    
+}
+
+#title {
+    text-align: center;
+    color: rgb(112, 185, 161);
+}
+
+#paragrafo {
+    text-align: center;
+}
+
+a:hover {
+    background-color: rgb(21, 148, 148);
+    color: rgb(163, 223, 223);
+}
+
+#an {
+    margin-left: 10%;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    border: solid;
+    width: max-content;
+    padding: 2px;
+    color: rgb(98, 207, 180);
+    border-radius: 25px;
+    border-radius: 20%;
+    background-color: rgb(245, 216, 181);
+    margin: 10px auto;
+}
+
+
+footer{
+    background-color:beige;
+    width: 300px;
+    height: 400px;
+    width: 90vw;
+    height: 02VW;
+}
+
+small{
+    color: rgb(172, 135, 89);
+    /* position: absolute; */
+
+}
+
+.iframe{
+    height:30vh;
+    display: block;
+    margin: auto;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding: 00px;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-weight: bold;
+    box-shadow: 8px;
+    background-color:rgb(221, 221, 211) ;
+    border: double;
+    border-color:rgb(80, 168, 139);
+}
+
+#para{
+    height: 05px;
+}
+.j{
+    border: none;
+    background: none;
+}
+
+.j:hover {
+    background: none;
+}
+
+.item-menu {
+    list-style-type: none;
+    width: max-content;
+
+}
+nav ul {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 0;
+}
+
