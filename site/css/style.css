@@ -1,6 +1,6 @@
 h1 {
     color: rgb(217, 224, 223);
-    font-size: 600px;
+    font-size: 20px;
     font-style: "poppins";
     text-align: center;
     border-radius: 25px;
@@ -8,16 +8,15 @@ h1 {
     border-color: rgb(28, 90, 92);
 }
 
-p{
-    font-size: 60px;
+p {
+    font-size: 20px;
     font-family: serif;
     text-align: center;
     border-radius: 25px;
     padding: 3px 40px;
-    margin: 1%;
 }
 
-li{
+li {
     font-size: 30px;
     padding: 1%;
 }
@@ -35,17 +34,19 @@ div {
     border: 2px solid;
     border-color: rgb(80, 168, 139);
     margin-bottom: 20px;
-    border: double darkcyan;
-    max-width: 300%;
+    /* border: double darkcyan; */
+    max-width: 100%;
     min-width: none;
-    max-height: 500%;
-    min-height: 600%;
+    max-height: 100%;
+    min-height: 100%;
+
 }
 
 img {
     width: 500px;
     display: block;
     margin: auto;
+    
 }
 
 #title {
@@ -62,24 +63,25 @@ img {
     height: 500px;
     display: block;
     margin: auto;
+    margin-top: 5%;
 }
 
-small{
+small {
     color: rgb(115, 161, 125);
     /* position: absolute; */
 }
 
-footer{
-    background-color:rgb(52, 119, 116);
+footer {
+    background-color: rgb(52, 119, 116);
     color: #8abdba;
     text-align: center;
-    padding: 1rem;
+    /*padding: 1rem;*/
     position: fixed;
     width: 100%;
     bottom: 0;
 }
 
-header{
+header {
     position: fixed;
     width: 100%;
     top: 0%;
@@ -92,14 +94,14 @@ header{
     font-size: 30px;
     font-weight: bold;
     box-shadow: 8px;
-    background-color:rgb(158, 204, 196) ;
+    background-color: rgb(158, 204, 196);
     border: double;
-    border-color:rgb(80, 168, 139);
+    border-color: rgb(80, 168, 139);
     padding: 1rem;
     text-align: center;
 }
 
-.j{
+.j {
     border: none;
     background: none;
 }
@@ -132,7 +134,7 @@ nav ul {
     flex-wrap: wrap;
     justify-content: space-around;
     margin-left: 30px;
-    
+
     font-size: 30px;
     list-style: none;
     padding: 0;
@@ -159,4 +161,12 @@ main {
 
 section {
     margin-bottom: 20px;
+}
+
+a:hover {
+    background-color: #9eb9b8;
+}
+
+img:first-child {
+    border: 10px;
 }
