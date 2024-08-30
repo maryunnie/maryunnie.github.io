@@ -6,16 +6,16 @@ header {
     height: 90px;
     display: flex;
     align-items: center;
-    padding: 0 20px;
+    padding: 0;
     box-sizing: border-box;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     /*box-shadow: 8px;*/
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     background-color: rgb(158, 204, 196);
     border: double;
     border-color: rgb(80, 168, 139);
-    padding: 1rem;
+    /* padding: 1rem; */
     text-align: center;
 }
 
@@ -23,27 +23,30 @@ nav ul {
     /* width: 200px; */
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-end;
     /*justify-content: space-around;*/
     /*margin-left: 30px;*/
     margin: 0;
-    font-size: 25px;
+    /* font-size: 25px; */
     list-style: none;
     padding: 0;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    /* margin: 0 15px; */
+    font-size: 16px;
 }
 
 nav ul li a {
+    /* font-size: 20px; */
     color: #fff;
     text-decoration: none;
-    padding: 10px 15px;
+    /* padding: 5px; */
     background-color: rgb(136, 181, 189);
     border-radius: 25px;
     transition: background-color 0.3s ease;
+    margin: 0;
 }
 
 nav ul li a:hover {
@@ -66,11 +69,15 @@ nav ul li a:hover {
 
 
 header h1 {
-    font-size: 30px;
+    /* font-size: 30px; */
     font-weight: bold;
     color: rgb(217, 224, 223);
     margin: 0;
     text-align: center;
     flex: 1;
 }
-    
+
+nav {
+    /* flex-grow: 2; */
+    width: 65%;
+}
