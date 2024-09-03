@@ -14,9 +14,11 @@ body {
 h1{
     color: #fff;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
 }
 
-p{font-size: 20px;
+p{
+    font-size: 25px;
     font-family: serif;
     text-align: center;
     border-radius: 25px;
@@ -27,6 +29,22 @@ header {
     background: #a18435;
     color:#cfc89f;
     padding: 10px 0;
+}
+
+img{
+    width: 500px;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#violao{
+        width: 500px;
+}
+
+a:hover {
+    color:#cfc89f ;
 }
 
 nav ul {
