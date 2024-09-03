@@ -83,15 +83,15 @@ img {
     text-align: center;
 }
 
-#imagem-1 {
-    max-width: 400px;
+/*#imagem- {
+    max-width: 500px;
     width: 80vw;
-    max-height: 500px;
+    max-height: 400px;
     height: 100vw;
     display: block;
     margin: auto;
     margin-top: 5%;
-}
+}*/
 
 small {
     color: rgb(115, 161, 125);
@@ -129,6 +129,7 @@ a {
 main {
     /*padding: 20px;*/
     padding: 120px 20px 20px;
+    min-height: calc(100vh - 78px);
 }
 
 
@@ -199,7 +200,6 @@ img:first-child {
     margin-top: 5%;*/
     display: block;
     margin: 20px auto;
-    max-width: 100%;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(95, 112, 33, 0.2);
 }
@@ -214,6 +214,7 @@ img:first-child {
 
 #curiosidades ul li {
     margin-bottom: 10px;
+    font-size: 18px;
 }
 
 .container-gerberas {
@@ -222,7 +223,7 @@ img:first-child {
     justify-content: space-evenly;
 }
 
-#cor{
-    color: blue;
+#sobre #cor{
+    color: rgb(145, 14, 14);
 }
 
