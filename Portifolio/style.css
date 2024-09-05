@@ -151,13 +151,6 @@ form button:hover {
     background: #a1a171;
 }
 
-/* Ajustes para responsividade do nav */
-@media (max-width: 600px) {
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-}
 
 /* Estilos para a Tabela */
 table {
@@ -209,7 +202,36 @@ form button:hover {
     background: #a1a171;
 }
 
+/* Ajustes para responsividade do nav */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: row;
+        align-items: center;
+        font-size: 15px;
+    }
+    footer {
+        height: 44px;
+    }
+    main {
+        min-height: calc(100vh - 88px);
+    }
+}
+
+
 /*para tabelas menores */
+@media (min-width: 601px) {
+    header {
+        height: 46px;
+    }
+    footer {
+        height: 46px;
+    }
+    main {
+        min-height: calc(100vh - 88px);
+    }
+
+}
+
 @media (max-width: 768px) {
     .projects-container {
         flex-direction: column;
@@ -219,6 +241,7 @@ form button:hover {
         flex-basis: 100%;
         max-width: 100%;
     }
+
 }
 
 @media (max-width: 300px) {
