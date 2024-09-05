@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +9,9 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #cfc89f;
+    /*padding: 10px;*/
 }
+
 
 h1{
     color: #fff;
@@ -32,7 +34,7 @@ header {
 }
 
 img{
-    width: 500px;
+    width: 400px;
     display: block;
     margin: auto;
     border-radius: 15px;
@@ -51,6 +53,7 @@ nav ul {
     display: flex;
     justify-content: center;
     list-style: none;
+    flex-wrap: wrap; /* Adiciona quebra de linha para itens */
 }
 
 nav ul li {
@@ -93,13 +96,12 @@ footer ul li a {
     text-decoration: none;
 }
 
-/* Página de Projetos */
-.project-card {
-    border: 1px solid #ebf5b3;
-    margin: 20px;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px #a18435(0, 0, 0, 0.1);
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px auto;
 }
 
 .project-card img {
@@ -107,7 +109,17 @@ footer ul li a {
     height: auto;
 }
 
-/* Formulário de Contato */
+
+.project-card {
+    border: 1px solid #ebf5b3;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #a18435(0, 0, 0, 0.1);
+    flex: 1 1 calc(50% - 20px); /* Ajusta a largura dos cartões */
+    max-width: calc(50% - 20px); /* Evita que os cartões fiquem maiores que 50% da largura do contêiner */
+}
+
 form {
     max-width: 600px;
     margin: 0 auto;
@@ -137,4 +149,94 @@ form button {
 
 form button:hover {
     background: #a1a171;
+}
+
+/* Ajustes para responsividade do nav */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Estilos para a Tabela */
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+thead {
+    background: #a18435;
+    color: #fff;
+}
+
+/* Formulário de Contato */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background: #a18435;
+    color: #cfc89f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #a1a171;
+}
+
+/*para tabelas menores */
+@media (max-width: 768px) {
+    .projects-container {
+        flex-direction: column;
+    }
+
+    .project-card {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 300px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-card {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
 }
