@@ -8,7 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #cfc89f;
+    background-color: #faab60b4;
     /*padding: 10px;*/
 }
 
@@ -27,13 +27,18 @@ p{
 }
 
 header {
-    background: #a18435;
+    background: #ebaa54;
     color:#cfc89f;
     padding: 10px 0;
+    box-shadow: 0 8px 10px #d69e54;
+    border-radius: 15px;
+    
 }
 
 img{
-    width: 400px;
+    min-width:280px;
+    max-height:70vh;
+    width: 30vw;
     display: block;
     margin: auto;
     border-radius: 15px;
@@ -75,7 +80,7 @@ section img {
 }
 
 footer {
-    background: #a18435;
+    background:  #ebaa54;
     color: #cfc89f;
     text-align: center;
     padding: 10px 0;
@@ -114,7 +119,7 @@ footer ul li a {
     margin: 20px;
     padding: 10px;
     border-radius: 5px;
-    box-shadow: 0 0 10px #a18435(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px  #ebaa54(0, 0, 0, 0.1);
     flex: 1 1 calc(50% - 20px); /* Ajusta a largura dos cartões */
     max-width: calc(50% - 20px); /* Evita que os cartões fiquem maiores que 50% da largura do contêiner */
 }
@@ -139,7 +144,7 @@ form input, form textarea {
 
 form button {
     padding: 10px;
-    background:#a18435;
+    background: #ebaa54;
     color: #cfc89f;
     border: none;
     border-radius: 5px;
@@ -147,7 +152,7 @@ form button {
 }
 
 form button:hover {
-    background: #a1a171;
+    background: #e4b989;
 }
 
 
@@ -165,7 +170,7 @@ th, td {
 }
 
 thead {
-    background: #a18435;
+    background:  #ebaa54;
     color: #fff;
 }
 
@@ -190,15 +195,15 @@ form input, form textarea {
 
 form button {
     padding: 10px;
-    background: #a18435;
-    color: #cfc89f;
+    background:  #ebaa54;
+    color: #ddd;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 form button:hover {
-    background: #a1a171;
+    background:#cfc89f;
 }
 
 /* Ajustes para responsividade do nav */
